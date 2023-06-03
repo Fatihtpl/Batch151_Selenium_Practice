@@ -29,7 +29,7 @@ public class C02 {
             List<WebElement> butonlar =driver.findElements(By.xpath("(//*[@class='nav-a  '])[2] | (//*[@class='nav-a  '])[3]"));//iksinide ayni anda aldik locatelerin.ayrida alabilirdik.
             butonlar.get(i).click();
 
-            
+
             if (driver.getTitle().contains("Amazon")){
                 System.out.println("Title Amazon içeriyor.");
             }else System.out.println("Title Amazon içermiyor");
