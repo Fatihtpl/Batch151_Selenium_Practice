@@ -41,7 +41,7 @@ public class C02 {
 
         }
 
-         // pencereyi kapatiniz
+         // pencereyi kapatiniz.fhsfgjdfgzdfhdysfhdgaghdahsrtagdh
         driver.close();
 
     }
